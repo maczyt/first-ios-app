@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F5F9CB71F47E14700B40A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5F9CB61F47E14700B40A4C /* AppDelegate.swift */; };
 		2F5F9CB91F47E14700B40A4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5F9CB81F47E14700B40A4C /* ViewController.swift */; };
 		2F5F9CBC1F47E14700B40A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5F9CBA1F47E14700B40A4C /* Main.storyboard */; };
 		2F5F9CBE1F47E14800B40A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5F9CBD1F47E14800B40A4C /* Assets.xcassets */; };
 		2F5F9CC11F47E14800B40A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5F9CBF1F47E14800B40A4C /* LaunchScreen.storyboard */; };
 		2F5F9CCC1F47E14800B40A4C /* ChineseZadicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5F9CCB1F47E14800B40A4C /* ChineseZadicTests.swift */; };
 		2F5F9CD71F47E14800B40A4C /* ChineseZadicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5F9CD61F47E14800B40A4C /* ChineseZadicUITests.swift */; };
+		2F5F9CE91F48129A00B40A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5F9CB61F47E14700B40A4C /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					2F5F9CB21F47E14700B40A4C = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L6H2FU7DLC;
 						ProvisioningStyle = Automatic;
 					};
 					2F5F9CC61F47E14800B40A4C = {
@@ -259,8 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5F9CE91F48129A00B40A4C /* AppDelegate.swift in Sources */,
 				2F5F9CB91F47E14700B40A4C /* ViewController.swift in Sources */,
-				2F5F9CB71F47E14700B40A4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6H2FU7DLC;
 				INFOPLIST_FILE = ChineseZadic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "js-ninja.cn.ChineseZadic";
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6H2FU7DLC;
 				INFOPLIST_FILE = ChineseZadic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "js-ninja.cn.ChineseZadic";
@@ -505,6 +508,7 @@
 				2F5F9CDD1F47E14800B40A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F5F9CDE1F47E14800B40A4C /* Build configuration list for PBXNativeTarget "ChineseZadicTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +517,7 @@
 				2F5F9CE01F47E14800B40A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F5F9CE11F47E14800B40A4C /* Build configuration list for PBXNativeTarget "ChineseZadicUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				2F5F9CE31F47E14800B40A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
